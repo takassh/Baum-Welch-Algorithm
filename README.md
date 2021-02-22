@@ -14,10 +14,11 @@
 - fが上に凸のときに成り立つ
 
 ## EMアルゴリズム
-- 一般形
-- <img src="https://latex.codecogs.com/gif.latex?\textrm{E&space;step:}&space;\hat{q}\left&space;(&space;z&space;\right&space;)&space;=&space;\underset{q\left&space;(&space;z&space;\right&space;)}{\mathrm{argmax}}&space;F\left&space;(&space;q\left&space;(&space;z&space;\right&space;),\theta&space;\right&space;)">
+- E step
+<img src="https://latex.codecogs.com/gif.latex?\textrm{E&space;step:}&space;\hat{q}\left&space;(&space;z&space;\right&space;)&space;=&space;\underset{q\left&space;(&space;z&space;\right&space;)}{\mathrm{argmax}}&space;F\left&space;(&space;q\left&space;(&space;z&space;\right&space;),\theta&space;\right&space;)">
 
-- <img src="https://latex.codecogs.com/gif.latex?\textrm{M&space;step:}&space;\hat{\theta&space;}&space;=&space;\underset{\theta}{\mathrm{argmax}}&space;F\left&space;(&space;q\left&space;(&space;z&space;\right&space;),\theta&space;\right&space;)">
+- M step
+<img src="https://latex.codecogs.com/gif.latex?\textrm{M&space;step:}&space;\hat{\theta&space;}&space;=&space;\underset{\theta}{\mathrm{argmax}}&space;F\left&space;(&space;q\left&space;(&space;z&space;\right&space;),\theta&space;\right&space;)">
 
 
 
