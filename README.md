@@ -18,9 +18,7 @@
 <img src="https://latex.codecogs.com/gif.latex?\textrm{E&space;step:}&space;\hat{q}\left&space;(&space;z&space;\right&space;)&space;=&space;\underset{q\left&space;(&space;z&space;\right&space;)}{\mathrm{argmax}}&space;F\left&space;(&space;q\left&space;(&space;z&space;\right&space;),\theta&space;\right&space;)">
 
 - M step
-<img src="https://latex.codecogs.com/gif.latex?\textrm{M&space;step:}&space;\hat{\theta&space;}&space;=&space;\underset{\theta}{\mathrm{argmax}}&space;F\left&space;(&space;q\left&space;(&space;z&space;\right&space;),\theta&space;\right&space;)">
-
-
+<img src="https://latex.codecogs.com/gif.latex?\textrm{M&space;step:}&space;\hat{\theta&space;}&space;=&space;\underset{\theta}{\mathrm{argmax}}&space;F\left&space;(&space;q\left&space;(&space;z&space;\right&space;),\theta&space;\right&space;)\\">
 
 - それぞれ、片方を固定してそのときの関数が最大となるような変数を求め、交互に更新していく
 - 最終的にこの手法によって対数尤度は単調増加していくが、それが大域最適解である保証はない
